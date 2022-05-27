@@ -2,6 +2,7 @@
 # Time: O(log(n)) where n is the integer
 # Space: O(1)
 # Topics: Math
+# Difficulty: Easy
 
 import math
 

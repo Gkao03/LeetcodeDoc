@@ -2,6 +2,7 @@
 # Time: O(n)
 # Space: O(n)
 # Topics: Array, Hash Table
+# Difficulty: Easy
 
 from typing import List
 

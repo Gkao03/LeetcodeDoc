@@ -2,6 +2,7 @@
 # Time: O(n)
 # Space: O(1)
 # Topics: Hash Table, Math, String
+# Difficulty: Easy
 
 class Solution:
     mapping = {"I": 1,

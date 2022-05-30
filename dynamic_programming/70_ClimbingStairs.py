@@ -3,6 +3,7 @@
 # Space: O(1)
 # Topics: Math, Dynamic Programming, Memoization
 # Difficulty: Easy
+# Notes: This is basically fibonacci counting.
 
 class Solution:
     def climbStairs(self, n: int) -> int:

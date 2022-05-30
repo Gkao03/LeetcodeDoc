@@ -3,6 +3,7 @@
 # Space: O(n). n = length of needle (to construct the lps table)
 # Topics: Two Pointers, String, String Matching
 # Difficulty: Easy
+# Notes: KMP Algorithm
 
 class Solution:
     def calc_lps(self, pattern):  # O(pattern) to construct

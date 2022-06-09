@@ -4,6 +4,7 @@
 # Topics: Array, Hash Table, Divide and Conquer, Sorting, Counting
 # Difficulty: Easy
 # Notes: you can use hash table trivially to store counts but will use O(n) space
+# This is also Moore's Voting Algorithm
 
 from typing import List
 

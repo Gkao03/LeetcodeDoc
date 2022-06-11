@@ -1,6 +1,6 @@
 # Same Tree
 # Time: O(min(n, m)). n is # of nodes in p. m is # of nodes in q
-# Space: O(1). O(h) if you count stack space where h is max height of tree.
+# Space: O(h) where h is height of tree. O(n) if not balanced. O(logn) if balanced
 # Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
 # Difficulty: Easy
 

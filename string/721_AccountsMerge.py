@@ -1,6 +1,8 @@
 # Accounts Merge
 # Time: O(n^2). Where n is number of emails and the emails are fully connected
 # Space: O(n^2). The graph representation will take O(n^2) space if fully connected
+# Topics: Array, String, Depth-First Search, Breadth-First Search, Union Find
+# Difficulty: Medium
 # Notes: For every pair of emails in the same account, draw an edge between those emails. 
 # The problem is about enumerating the connected components of this graph.
 

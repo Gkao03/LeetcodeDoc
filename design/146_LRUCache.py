@@ -6,11 +6,11 @@
 
 class LRUCache:
     class ListNode:  # Node for doubly linked list
-        def __init__(self, key, val, next=None, prev=None):
+        def __init__(self, key, val, nxt=None, prev=None):
             self.key = key
             self.val = val
-            self.next = next
-            self.prev = next
+            self.next = nxt
+            self.prev = prev
             
 
     def __init__(self, capacity: int):

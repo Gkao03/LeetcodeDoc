@@ -1,6 +1,8 @@
 # Group Anagrams
 # Time: O(ns). n is length of strs. s is length of longest string in strs
 # Space: O(n)
+# Topics: Array, Hash Table, String, Sorting
+# Difficulty: Medium
 # Notes: strs[i] contains only lowercase English letters and strs has at least 1 element.
 
 from collections import defaultdict

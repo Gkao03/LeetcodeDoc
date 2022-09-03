@@ -3,6 +3,8 @@
 # Space: O(n)
 # Topics: Hash Table, String, Trie, Sorting, Heap, Bucket Sort, Counting
 # Difficulty: Medium
+# Notes: can also use bucket sort and trie to get O(n) time but will have
+# large constant factors
 
 from typing import List
 from collections import Counter

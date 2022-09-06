@@ -15,11 +15,7 @@ class Solution:
         start_idx = 0
         curr_idx = 0
         
-        temp_num = nums[(curr_idx + k) % n]
-        nums[(curr_idx + k) % n] = nums[curr_idx]
-        curr_idx = (curr_idx + k) % n
-        
-        for _ in range(n - 1):
+        for _ in range(n):
             if curr_idx == start_idx:
                 start_idx = (start_idx + 1) % n
                 curr_idx = (curr_idx + 1) % n

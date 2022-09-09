@@ -11,7 +11,6 @@ import heapq
 class Solution:
     def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
         idx = bisect_left(arr, x)  # O(logn)
-        print(idx)
         if idx >= len(arr) or (idx - 1 >= 0 and abs(arr[idx - 1] - x) <= abs(arr[idx] - x)):
             idx -= 1
                 

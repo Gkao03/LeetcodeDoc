@@ -3,6 +3,8 @@
 # Space: O(1)
 # Topics: String, Dynamic Programming
 # Difficulty: Medium
+# Notes: this is similar to the climbing stairs
+# DP problem
 
 class Solution:
     def numDecodings(self, s: str) -> int:

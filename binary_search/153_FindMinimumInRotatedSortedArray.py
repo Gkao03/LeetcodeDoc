@@ -3,6 +3,7 @@
 # Space: O(1)
 # Topics: Array, Binary Search
 # Difficulty: Medium
+# Notes: values in array are guaranteed to be unique
 
 from typing import List
 

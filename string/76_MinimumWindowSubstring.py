@@ -4,7 +4,7 @@
 # Topics: Hash Table, String, Sliding Window
 # Difficulty: Medium
 
-from collections import defaultdict, Counter
+from collections import defaultdict
 
 class Solution:
     def minWindow(self, s: str, t: str) -> str:

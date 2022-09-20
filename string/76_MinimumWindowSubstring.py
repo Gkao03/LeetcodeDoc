@@ -2,7 +2,7 @@
 # Time: O(m + n). m is length of s. n is length of t.
 # Space: O(m + n). space for hash table.
 # Topics: Hash Table, String, Sliding Window
-# Difficulty: Medium
+# Difficulty: Hard
 
 from collections import defaultdict
 

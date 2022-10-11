@@ -1,5 +1,5 @@
 # Cheapest Flights Within K Stops
-# Time: O(E + VlogV). E is number of edges. V is number of vertices (cities)
+# Time: O((E + V)logV). E is number of edges. V is number of vertices (cities)
 # Space: O(E + V)
 # Topics: Dynamic Programming, Depth-First Search, Breadth-First Search, Graph, Heap, Shortest Path
 # Difficulty: Medium

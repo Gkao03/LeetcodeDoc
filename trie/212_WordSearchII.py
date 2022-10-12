@@ -1,5 +1,5 @@
 # Word Search II
-# Time: O(mn*3^s). m, n are dimensions of board. s is length of longest word in "words".
+# Time: O(mn*3^s + sum(length of all words in "words")). m, n are dimensions of board. s is length of longest word in "words".
 # Space: O(mn + sum(length of all words in "words")). need space to store Trie.
 # Topics: Array, String, Backtracking, Trie, Matrix
 # Difficulty: Hard

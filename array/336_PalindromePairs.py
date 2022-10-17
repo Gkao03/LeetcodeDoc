@@ -13,10 +13,10 @@ class Solution:
     
     def palindromePairs(self, words: List[str]) -> List[List[int]]:
         # all strings in words are unique
-        hash_table = defaultdict(lambda: [])
+        hash_table = defaultdict(lambda: None)
         
         for i, word in enumerate(words):
-            hash_table[word].append(i)
+            hash_table[word] = i
         
         output = []
         for i, word in enumerate(words):
@@ -31,13 +31,11 @@ class Solution:
                 str2 = word[w_idx:]
                 
                 if self.is_palindrome(str1):
-                    for pair_i in hash_table[str2[::-1]]:
-                        if pair_i != i:
-                            output.append([pair_i, i])
+                    if hash_table[str2[::-1]] is not None and hash_table[str2[::-1]] != i:
+                        output.append([hash_table[str2[::-1]], i])
                 
                 if self.is_palindrome(str2):
-                    for pair_i in hash_table[str1[::-1]]:
-                        if pair_i != i:
-                            output.append([i, pair_i])
+                    if hash_table[str1[::-1]] is not None and hash_table[str1[::-1]] != i:
+                        output.append([i, hash_table[str1[::-1]]])
                     
         return output

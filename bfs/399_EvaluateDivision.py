@@ -27,7 +27,7 @@ class Solution:
         return float("inf")
 
     def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
-        hash_table = defaultdict(lambda: [])  # this is the graph representation ->  a: (b, val)
+        hash_table = defaultdict(lambda: [])  # this is the graph representation ->  a: [(b, val), ...]
         all_variables = set()  # set of all variables
 
         # construct the graph

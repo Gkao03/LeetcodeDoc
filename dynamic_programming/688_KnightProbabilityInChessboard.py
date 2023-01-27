@@ -15,13 +15,10 @@ class Solution:
         return cells
 
     def knightProbability(self, n: int, k: int, row: int, column: int) -> float:
-        if k == 0:
-            return 1.0
-
         # k is at least 1. initialize dp table
-        curr_dp_table = [[len(self.get_possible_cells(n, i, j)) / 8 for j in range(n)] for i in range(n)]
+        curr_dp_table = [[1] * n for _ in range(n)]
 
-        for _ in range(k - 1):  # O(k)
+        for _ in range(k):  # O(k)
             next_dp_table = [[0] * n for _ in range(n)]  # init blank next dp table
 
             for i in range(n):  # O(n)
